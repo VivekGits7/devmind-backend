@@ -1,0 +1,18 @@
+[project]
+name = "devmind-backend"
+version = "1.0.0"
+description = "DevMind Backend API"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.30.0",
+    "asyncpg>=0.30.0",
+    "pydantic[email]>=2.0.0",
+    "pydantic-settings>=2.0.0",
+    "python-jose[cryptography]>=3.3.0",
+    "passlib[bcrypt]>=1.7.4",
+    "slowapi>=0.1.9",
+    "python-dotenv>=1.0.0",
+    "python-multipart>=0.0.9",
+]
